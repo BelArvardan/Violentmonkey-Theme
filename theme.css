@@ -1,3 +1,27 @@
+/* --- this part is unrelated to the dark theme, just really nice to have --- */
+
+button, select, input, textarea {
+  border-radius: 4px;
+}
+
+/* search input margin */
+.filter-search.hidden-sm { margin-right: 10px; }
+.filter-search.hidden-sm > input { width: 100%; }
+
+textarea {
+  padding: 4px;
+  font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;
+  height: 30ch !important;
+}
+
+/* custom style input */
+.tab-settings div:last-child > section:last-child > textarea {
+  height: 70ch !important;
+}
+
+/* --- end unrelated --- */
+
+
 /* Based on Sublime Text's Monokai theme */
 .cm-s-eclipse.CodeMirror {
   color: #8a8a8a;
@@ -593,7 +617,7 @@ header .btn-ghost.active {
     visibility: show;
   }
   .tab-settings > :last-child {
-    display: block !important;
+    display: hide !important;
   }
 }
 textarea:focus {
