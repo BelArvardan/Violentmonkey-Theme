@@ -22,12 +22,12 @@ Violentmonkey has an ["simple built-in dark theme"](https://github.com/violentmo
 
 However this feature doesn't work in my default browser Vivaldi or my favorite firefox fork [Librewolf](https://librewolf-community.gitlab.io).
 
-Therefore I needed a solid dark theme that could copy and pasted into the Custom style section in the options.
+Therefore I needed a solid dark theme that could be copy and pasted into the Custom style section in the options panel.
 
 ## Installing
-Copy and paste the full content of [theme.css](https://raw.githubusercontent.com/SuperOP535/Violentmonkey-Theme/master/theme.css) to Settings -> Advanced -> Custom style and click save.
+Copy and paste the full content of [theme.css](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/theme.css) to Settings -> Advanced -> Custom style and click save.
 
 ## Preview
-![Note: The names and versions are blurred on purpose.](https://github.com/SuperOP535/Violentmonkey-Theme/raw/master/preview.png)
+![Note: The names and versions are blurred on purpose.](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview.png)
 
 
