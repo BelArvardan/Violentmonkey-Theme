@@ -1,3 +1,8 @@
+/* ---------- Violentmonkey Theme Monokai ---------- */ 
+/* Dr. Bel Arvardan Mod - 06.16.2021 */
+
+/*  ----- Section from SuperOP535 - Violentmonkey-Theme -----  */
+
 /* --- this part is unrelated to the dark theme, just really nice to have --- */
 
 button, select, input, textarea {
@@ -21,6 +26,7 @@ textarea {
 
 /* --- end unrelated --- */
 
+/* ----- tophf's violentmonkey.css with modified colors----- */
 
 /* Based on Sublime Text's Monokai theme */
 .cm-s-eclipse.CodeMirror {
@@ -135,6 +141,15 @@ textarea {
   font-family: Consolas, monospace;
   font-size: 16px;
   line-height: 1.35;
+  color: #ccc;
+  background: #111;
+}
+.CodeMirror-activeline-background {
+  background: #A1EFE4;
+}
+.CodeMirror-linenumber {
+  color: #ffffff;
+  background: #111;
 }
 .page-options .frame {
   background: #111;
@@ -170,7 +185,7 @@ textarea {
 
 /************************************************* MANAGER */
 .tab-installed .script {
-  display: flex;
+/*  display: flex;*/
   align-items: center;
   height: 2.5rem !important;
   margin: 0;
@@ -564,7 +579,7 @@ header .btn-ghost.active {
 /************************************************* ABOUT/SETTINGS */
 .tab-about {
   padding: 0;
-  text-align: center;
+/*  text-align: center;*/
 }
 .tab-about a,
 .tab-settings a,
@@ -604,7 +619,7 @@ header .btn-ghost.active {
 .tab-settings > :last-child > :first-child {
   margin-top: 0;
 }
-@media (min-width: 1000px) {
+/*@media (min-width: 1000px) {
   .tab-settings {
     display: flex;
     flex-direction: column;
@@ -614,12 +629,12 @@ header .btn-ghost.active {
     width: calc(50% - 3rem);
   }
   .show-advanced {
-    visibility: show;
+    visibility: hidden;
   }
   .tab-settings > :last-child {
     display: hide !important;
   }
-}
+}*/
 textarea:focus {
   color: #ddd;
   border-color: #503229;
@@ -635,7 +650,7 @@ option {
   background: #333;
 }
 select:focus {
-  border-color: #69482f;
+  border-color: #66D9EF;
   background: #2b1e19;
 }
 input[type="text"] {
@@ -666,11 +681,11 @@ button:disabled {
 .edit-settings {
   padding-top: 2rem;
 }
-@media (min-width: 1000px) {
+/*@media (min-width: 1000px) {
   .edit-settings {
     columns: 2;
   }
-}
+}*/
 .edit-settings .form-group > :first-child {
   font-weight: bold;
   width: 10rem;
