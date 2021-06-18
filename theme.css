@@ -78,7 +78,7 @@ textarea {
   color: #bc9262;
 }
 .cm-s-eclipse span.cm-comment.cm-tag {
-  color: #bc6283;                 hsl(338.0,40.18%,56.08%)
+  color: #bc6283;
 }
 .cm-s-eclipse span.cm-comment.cm-type {
   color: #5998a6;
@@ -88,7 +88,7 @@ textarea {
   color: #a6e22e;
 }
 .cm-s-eclipse span.cm-keyword {
-  color: #c54171;                 hsl(338.18,53.23%,51.37%)
+  color: #c54171;
 }
 .cm-s-eclipse span.cm-builtin {
   color: #66d9ef;
@@ -113,7 +113,7 @@ textarea {
   color: #f8f8f2;
 }
 .cm-s-eclipse span.cm-tag {
-  color: #f92672;                 hsl(338.39,94.62%,56.27%)
+  color: #f92672;
 }
 .cm-s-eclipse span.cm-header {
   color: #ae81ff;                 
@@ -137,19 +137,40 @@ textarea {
 }
 
 /************************************************* EDITOR */
+
+.edit-nav-item {
+  align-items: center;
+  border: none;
+}
+.edit-nav-item > a.active {
+  color: white;
+  background-color: hsl(338.39,94.62%,56.27%);
+}
+.edit-nav-item > a:hover:not(.active) {
+  color: hsl(338.18,53.23%,51.37%);
+  background-color: hsla(16, 100%, 71%, 0.05);
+}
+.edit-nav-item > a {
+  font-weight: bold;
+  padding: 0 1rem;
+  color: hsl(338.39,94.62%,56.27%);
+}
 .editor-code .CodeMirror {
   font-family: Consolas, monospace;
   font-size: 16px;
   line-height: 1.35;
   color: #ccc;
-  background: #111;
+  background: #0004;
 }
 .CodeMirror-activeline-background {
   background: #A1EFE4;
 }
 .CodeMirror-linenumber {
-  color: #ffffff;
-  background: #111;
+  color: #ae81ff;
+  background: #333;
+}
+.CodeMirror-gutter {
+  background: #333;
 }
 .page-options .frame {
   background: #111;
@@ -185,9 +206,9 @@ textarea {
 
 /************************************************* MANAGER */
 .tab-installed .script {
-/*  display: flex;*/
+/*  display: flex;
   align-items: center;
-  height: 2.5rem !important;
+  height: 2.5rem !important;*/
   margin: 0;
   padding: 0 2rem;
   border: none;
@@ -195,7 +216,7 @@ textarea {
   border-radius: 0;
   background: none !important;
 }
-.tab-installed .script-name {
+/*.tab-installed .script-name {
   font-weight: bold;
   color: #bbb;
 }
@@ -223,7 +244,7 @@ textarea {
   align-items: center;
   justify-content: space-between;
   width: 10rem;
-}
+}*/
 .tab-installed .script-info > :last-child > .ml-1 {
   width: 4rem;
   text-align: right;
@@ -299,11 +320,11 @@ body {
   background: hsl(0, 0%, 10%);
 }
 .script-buttons {
-  align-items: center;
+/*  align-items: center;
   position: absolute;
-  margin: 0 .5rem 0 0;
+  margin: 0 .5rem 0 0;*/
   color: hsl(338.39,94.62%,56.27%);
-  width: calc(100% - 26rem);
+/*  width: calc(100% - 26rem);*/
 }
 .script-buttons .disabled {
   color: #fff2;
@@ -319,9 +340,9 @@ body {
   background: none;
   filter: brightness(2);
 }
-.sep:after {
+/*.sep:after {
   border-right-color: #0004;
-}
+}*/
 .filter-search input {
   border: none;
   background: #fff0;
@@ -386,7 +407,7 @@ button:not(:disabled):hover {
   background: #3e1201 !important;
   box-shadow: none;
 }
-@media (min-width: 1500px) {
+/*@media (min-width: 1500px) {
   .scripts {
     display: flex;
     flex-wrap: wrap;
@@ -417,7 +438,7 @@ button:not(:disabled):hover {
     right: 17rem;
     left: 17rem;
   }
-}
+}*/
 @media (min-width: 1900px) and (max-width: 2500px) {
   .script {
     padding: 0 2rem;
@@ -454,13 +475,13 @@ button:not(:disabled):hover {
   max-width: calc(100% - 1.5rem);
 }
 .script-message:not(:empty) {
-  position: absolute;
+/*  position: absolute;
   z-index: 100;
   margin: 1.25rem 0 0 2rem;
   padding: 1px .5em 2px;
   opacity: .5;
   color: white;
-  border-radius: .5em;
+  border-radius: .5em;*/
   background: hsl(338.39,94.62%,56.27%);
 }
 .script-message:hover {
@@ -595,7 +616,7 @@ header .btn-ghost.active {
 }
 .tab-about .text-green {
   font-weight: bold;
-  color: gold;
+  color: #A6E22E;
 }
 .tab-settings h1,
 .tab-about h1 span,
@@ -637,7 +658,7 @@ header .btn-ghost.active {
 }*/
 textarea:focus {
   color: #ddd;
-  border-color: #503229;
+  border-color: #AE81FF;
 }
 select,
 input[type="number"] {

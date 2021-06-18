@@ -7,11 +7,9 @@ A complete dark theme for the Violentmonkey extension.
 - [Preview](#preview)
 
 ## Notes
-- The final revision is a slight variation of [tophf's violentmonkey.css](https://gist.github.com/tophf/cc109b0ba5cb98353c9ea51579c85ae2) I changed the Brown text colors to the Monokai bright pink palette.
+- The final revision is a variation of [tophf's violentmonkey.css](https://gist.github.com/tophf/cc109b0ba5cb98353c9ea51579c85ae2) I changed the Brown text colors to the Monokai bright pink palette and removed some sections.
 
 - The fist draft was a variation of [SuperOP535/Violentmonkey-Theme](https://github.com/SuperOP535/Violentmonkey-Theme) making changes to the Dracula color palette. However I found subtexts were not being displayed correctly in the extensions dropdown. I don't know enough css to fix this issue so I decided to use [tophf/violentmonkey.css](https://gist.github.com/tophf/cc109b0ba5cb98353c9ea51579c85ae2) as a base instead.
-
-- The final version disables the "Advanced" button in the Violentmonkey options panel. this is not an issue for me because once this theme is added a longer need to advanced options.
 
 ## Purpose
 - Violentmonkey has an ["simple built-in dark theme"](https://github.com/violentmonkey/violentmonkey/issues/456#issuecomment-536090171Violentmonkey) feature which is set ["automatically in new browsers when the OS and the browser are using the dark mode."](https://github.com/violentmonkey/violentmonkey/issues/456#issuecomment-536090171Violentmonkey) This works great in Mozilla Firefox and the new Microsoft Edge. 
