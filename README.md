@@ -25,13 +25,13 @@ A complete dark theme for the Violentmonkey extension.
 Note: The names and versions are blurred on purpose.
 
 ### Popout
-[popout](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview-popout.png)
+![popout](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview-popout.png)
 
 ### Installed Scripts
-[installed-scripts](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview-installed-scripts.png)
+![installed-scripts](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview-installed-scripts.png)
 
 ### Editor
-[editor](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview-editor.png)
+![editor](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview-editor.png)
 
 ### Installing Script
-[installing-script](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview-installing-script.png)
+![installing-script](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview-installing-script.png)
