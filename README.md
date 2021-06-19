@@ -22,7 +22,7 @@ A complete dark theme for the Violentmonkey extension.
 - Copy and paste the full content of [theme.css](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/theme.css) to Settings -> Advanced -> Custom style and click save.
 
 ## Previews
-Note: The names and versions are blurred on purpose.
+- Note: The names and versions are blurred on purpose.
 
 ### Popout
 ![popout](https://raw.githubusercontent.com/BelArvardan/Violentmonkey-Theme-Monokai/master/preview-popout.png)
