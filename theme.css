@@ -200,8 +200,8 @@ textarea {
   filter: brightness(1.5);
 }
 .editor-search .toggle-button.active {
-  color: orange;
-  border-color: #65380d;
+  color: #66d9ef;
+  border-color: #ae81ff;
 }
 
 /************************************************* MANAGER */
@@ -345,8 +345,8 @@ body {
 }*/
 .filter-search input {
   border: none;
-  background: #fff0;
-  color: orange;
+  background: #fff1;
+  color: #66d9ef;
 }
 .filter-search input:focus {
   color: #fff;
@@ -894,7 +894,7 @@ button:disabled {
 .page-confirm h1 > :first-child {
   font-size: 2.5rem;
   line-height: 3rem;
-  color: #ad6e3f;
+  color: #f92672;
 }
 .page-confirm [title] {
   font-family: Consolas, monospace;
@@ -923,7 +923,7 @@ button:disabled {
   justify-content: space-between;
 }
 .page-confirm [title] + div {
-  color: #c18700;
+  color: #c54171;
 }
 .page-confirm input:checked + span {
   color: #fff;
